@@ -51,4 +51,5 @@ print(AppleTree.all_text)
 
 with open("out.txt","w") as file:
     file.write(AppleTree.all_text)
+    file.close()
 
